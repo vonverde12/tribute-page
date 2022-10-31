@@ -1,0 +1,129 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: url(/img/bukowski-survey.jpg) no-repeat;
+  background-size: cover;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  position: relative;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  /* margin: 50px auto 40px 180px; */
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 30px;
+  left: 100px;
+}
+
+h2 {
+  margin: 20px 0;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+p {
+  font-size: 0.9rem;
+}
+
+textarea {
+  resize: none;
+  border-radius: 2px;
+}
+
+span {
+  color: red;
+  font-weight: 800;
+}
+
+/* Container and label boxes */
+
+.container {
+  border: 2px solid grey;
+  width: 400px;
+  height: 480px;
+  margin: 200px 20px 10px auto;
+  position: relative;
+  box-shadow: 0 0 10px 0 grey;
+}
+
+.box {
+  font-size: 12px;
+  /* border: 1px solid black; */
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  position: absolute;
+}
+
+.label1 {
+  top: 24px;
+  left: 24px;
+}
+
+.label2 {
+  top: 24px;
+  right: 27px;
+}
+
+.label3 {
+  top: 23%;
+  left: 24px;
+  width: 350px;
+}
+
+.text {
+  left: 24px;
+  bottom: 80px;
+  width: 350px;
+}
+
+/* Inputs */
+
+input {
+  padding: 18px 24px;
+  border-radius: 10px;
+  border: none;
+  border: 1px solid grey;
+}
+
+label {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.btn {
+  padding: 10px 24px;
+  background-color: white;
+  position: absolute;
+  bottom: 20px;
+  right: 32px;
+  border-radius: 10px;
+  border: none;
+  border: 1px solid grey;
+}
+
+textarea::placeholder {
+  padding-top: 2px;
+  padding-left: 3px;
+  margin-left: 2px;
+}
